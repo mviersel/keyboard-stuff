@@ -11,7 +11,7 @@
 8. Keychron K3 HE
 
 ## Repo's
-[](https://github.com/foostan/crkbd)
+[Foostan crkbd](https://github.com/foostan/crkbd)
 
 ## Online software
 
