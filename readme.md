@@ -12,6 +12,7 @@
 
 ## Repo's
 [Foostan crkbd](https://github.com/foostan/crkbd)
+[shoedler54](https://github.com/shoedler/shoedler54)
 
 ## Online software
 
