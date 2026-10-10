@@ -175,6 +175,14 @@ bool oled_task_user(void) {
     if (is_keyboard_master()) {
         oled_render_layer_state();
         oled_render_keylog();
+
+        oled_write_ln_P(PSTR(""), false);
+
+        char wpm_str[16];
+        snprintf(wpm_str, sizeof(wpm_str),
+                 "WPM: %3u", get_current_wpm());
+        oled_write_ln(wpm_str, false);
+
     } else {
         oled_render_logo();
     }
